@@ -1,5 +1,7 @@
-Build fails when referencing a file that is in "./public" directory.
-I would imagine this should work as it works for the dev server.
+Build fails when importing a javascript that is in the "./public" directory.
+
+Note: this works properly on the dev server -- just not when building for production.
+Note: importing CSS files in the same way does not cause a similar issue.
 
 1. Init generic astro project
 2. Run `npm install`
